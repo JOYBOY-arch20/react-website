@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+    --color-body: #140C1C;
+
+}
+
+
+
+.linear-button {
+
+
+position: relative;
+width: 160.63px;
+height: 49px;
+/* Lets Talk */
+
+
+
+
+justify-content: center;
+top: calc(50% - 19px/2);
+
+gap: 10px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+/* or 100% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+
+background: linear-gradient(90deg, #8750F7 0%, #2A1454 51%, #8750F7 100%);
+border-radius: 9999px;
+
+}
+
+
+/* Section */
+
+
