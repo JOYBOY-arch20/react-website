@@ -2,7 +2,14 @@
 
 @theme {
     --color-body: #140C1C;
+    --color-heading: #8750F7;
+    --font-sora: "Sora", sans-serif;
 
+}
+
+
+@utility buttn {
+    font-family: sora; font-size: 12px; font-weight: 600; color: #8750F7; line-height: 16px; letter-spacing: 2.4px;
 }
 
 
@@ -43,5 +50,37 @@ border-radius: 9999px;
 
 
 /* Section */
+
+
+
+
+
+
+/* Heading 2 → MY Mastering Video
+Editing Skills */
+
+.text-big {
+width: 509.58px;
+height: 111px;
+
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 54px;
+/* or 120% */
+display: flex;
+align-items: center;
+letter-spacing: -0.9px;
+text-transform: uppercase;
+
+background: linear-gradient(90deg, #FFFFFF 50%, rgba(255, 255, 255, 0.4) 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
 
 
